@@ -1,0 +1,17 @@
+确保python库中含有所需要的绘图库和相关库
+若没有所包含的库可按照以下方式进行安装相关库——借助清华大学PIP网络镜像
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn  install pandas#文件提取
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn  install sklearn#机器学习
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn  install pyecharts#可视化
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn  install seaborn#可视化
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.tuna.tsinghua.edu.cn  install matplotlib#可视化
+（WIN+R打开后使用cmd指令进行输入）
+
+代码：
+train = pd.read_csv('C:\\Users\\49210\Desktop\\21.csv')
+csv后的路径按照自己保存文件的路径所填写（右键文件属性，复制粘贴，双斜杠作为路径的通配符）
+
+21csv和22csv的区别在于地理坐标和数据不同
+还会附上原始数据供以参考
+数据可视化部分建议使用
+jupyter Notebook
